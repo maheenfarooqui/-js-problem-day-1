@@ -93,9 +93,22 @@ console.log(leapYear(2024));
 
 // home work 
 // Q1 check if the char is upper lower case or special charaater
+
+function charCheck(charCase){
+    if(/[A-Z]/.test(charCase)){
+        return 'uppercase';
+    }
+    else if(/[a-z]/.test(charCase)){
+        return 'lower case';
+    }
+    return 'special char';
+}
+console.log(charCheck("^"));
+
 // Q2 check trinagle type using angle side
+
 // Q3 calculate incom tax slab
-// Q4
+
 
 
 
